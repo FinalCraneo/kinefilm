@@ -17,12 +17,12 @@ export default function Header(props) {
         <h1 className="header__container-heading">{props.movie.name}</h1>
         <button onClick={() => alert("not a movie!")} className="header__container-btnPlay">
           <PlayLogo className="header__container-btnMyList-play" />
-          Play
+          Reproducir
         </button>
 
         <button className="header__container-btnMyList">
           <AddLogo className="header__container-btnMyList-add" />
-          My List
+          Mi lista
         </button>
         <p className="header__container-overview">{props.movie.overview}</p>
       </div>
